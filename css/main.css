@@ -1,6 +1,10 @@
 body {
   font-family: "Montserrat";
 }
+.black-bar {
+  background-color: #000000;
+  color: #ffffff;
+}
 header .top-bar {
   background-color: #000000;
   color: #ffffff;
@@ -42,6 +46,11 @@ footer .logo {
 }
 footer .social img {
   max-width: 45px;
+}
+footer .copyright {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
 }
 /*
 .contactform {

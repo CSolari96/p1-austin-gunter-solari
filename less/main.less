@@ -4,10 +4,14 @@ body {
   font-family: @mainFont;
 }
 
+.black-bar {
+  background-color: @black;
+  color: @white;
+}
+
 header {
   .top-bar {
-    background-color: @black;
-    color: @white;
+    .black-bar();
 
     p {
       display: inline-block;
@@ -58,6 +62,11 @@ footer {
     img {
       max-width: 45px;
     }
+  }
+
+  .copyright {
+    .black-bar();
+    text-align: center;
   }
 }
 
