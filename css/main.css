@@ -1,9 +1,5 @@
 body {
   font-family: "Montserrat";
-  background-color: #006345;
-}
-header {
-  background-color: #ffffff;
 }
 header .top-bar {
   background-color: #000000;
@@ -29,6 +25,9 @@ header .subpage-banner h1 {
 }
 header .subpage-banner h1 span {
   color: #006345;
+}
+main {
+  background-color: #006345;
 }
 main section {
   background-image: url("../img/background.jpg");
