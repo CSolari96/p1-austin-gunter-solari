@@ -7,6 +7,7 @@ header .top-bar {
 }
 header .top-bar p {
   display: inline-block;
+  font-weight: 500;
 }
 header .top-bar img {
   max-width: 25px;
