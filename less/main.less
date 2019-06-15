@@ -1,7 +1,29 @@
 @import "variables";
-header {
+
+body {
   font-family: @mainFont;
-  background-color: @black;
+}
+
+header {
+  .top-bar {
+    background-color: @black;
+    color: @white;
+
+    p {
+      display: inline-block;
+    }
+
+    img {
+      max-width: 25px;
+      max-height: 25px;
+    }
+  }
+}
+
+
+
+
+/* header {
   h1 {
     font-size: 15px;
     color: white;
@@ -42,3 +64,4 @@ footer {
   border-color: @green;
   border-radius: 0;
 }
+*/

@@ -1,39 +1,56 @@
-header {
+body {
   font-family: "Montserrat";
+}
+header .top-bar {
   background-color: #000000;
+  color: #ffffff;
 }
-header h1 {
-  font-size: 15px;
-  color: white;
-  text-align: right;
+header .top-bar p {
+  display: inline-block;
 }
+header .top-bar img {
+  max-width: 25px;
+  max-height: 25px;
+}
+/* header {
+  h1 {
+    font-size: 15px;
+    color: white;
+    text-align: right;
+  }
+}
+
 .jumbotron {
-  font-family: "Montserrat";
-  font-weight: 400;
+  font-family: @mainFont;
+  font-weight:400;
   font-size: 32px;
-  color: #b5c534;
+  color: @green;
+  span {
+    color: @darkGreen;
+  }
 }
-.jumbotron span {
-  color: #006345;
-}
+
 .contactform {
-  background-color: #006345;
-  color: #b5c534;
+  background-color:@darkGreen;
+  color:@green;
 }
+
 footer {
-  background-color: #58585a;
-  color: #bfd67c;
-}
-footer h3 {
-  color: #b5c534;
+  background-color: @gray;
+  color: @lightGreen;
+  h3{ 
+    color:@green;
+  }
 }
 .form-group input {
   border: 2px solid;
-  border-color: #b5c534;
+  border-color: @green;
   border-radius: 0;
 }
+
 .form-group textarea {
   border: 2px solid;
-  border-color: #b5c534;
+  border-color: @green;
   border-radius: 0;
 }
+*/
