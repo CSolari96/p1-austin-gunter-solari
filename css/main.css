@@ -17,16 +17,20 @@ header .top-bar img {
   max-width: 25px;
   max-height: 25px;
 }
-header .subpage-banner {
-  background-image: url('../img/subpage-heading.png');
-  background-size: cover;
-}
-header .subpage-banner h1 {
+header h1 {
   color: #bfd67c;
   font-weight: 700;
 }
-header .subpage-banner h1 span {
+header h1 span {
   color: #006345;
+}
+header .homepage-banner {
+  background-image: url('../img/home-heading.png');
+  background-size: cover;
+}
+header .subpage-banner {
+  background-image: url('../img/subpage-heading.png');
+  background-size: cover;
 }
 main {
   background-color: #006345;
