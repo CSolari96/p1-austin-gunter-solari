@@ -23,8 +23,6 @@ header .subpage-banner {
 }
 header .subpage-banner h1 {
   color: #bfd67c;
-  text-align: center;
-  text-transform: uppercase;
   font-weight: 700;
 }
 header .subpage-banner h1 span {
@@ -41,16 +39,16 @@ footer {
   background-color: #58585a;
   color: #bfd67c;
 }
-footer .logo {
-  width: 75%;
-}
 footer .social img {
   max-width: 45px;
+}
+footer p {
+  font-size: .95rem;
 }
 footer .copyright {
   background-color: #000000;
   color: #ffffff;
-  text-align: center;
+  font-size: .75rem;
 }
 /*
 .contactform {
