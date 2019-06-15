@@ -35,6 +35,12 @@ main section {
   background-image: url("../img/background.jpg");
   background-size: cover;
 }
+main section div div {
+  max-width: 300px;
+}
+main section img {
+  width: 100%;
+}
 footer {
   background-color: #58585a;
   color: #bfd67c;
