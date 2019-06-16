@@ -1,19 +1,32 @@
 @import "variables";
 
+// Body Styles for All Pages
 body {
   font-family: @mainFont;
+  color: @black;
 }
 
-.black-bar {
-  background-color: @black;
-  color: @white;
+// Call-to-Action Button Styles
+.cls-1 {
+  fill: none;
 }
 
-.plaster-bkg {
-  background-image: url("../img/background.jpg");
-  background-size: cover;
+.cls-2 {
+  clip-path: url(#clip-path);
 }
 
+.cls-3 {
+  fill: #bfd67c;
+}
+
+.cls-4 {
+  fill: #006345;
+  font-size: 21px;
+  font-family: Montserrat-Bold, Montserrat;
+  font-weight: 700;
+}
+
+// Header and Navigation Styles
 header {
   .top-bar {
     .black-bar();
@@ -49,10 +62,36 @@ header {
   }
 }
 
+// Main Content for all pages
 main {
   background-color: @darkGreen;
+}
 
-  .projects-gallery {
+// Home Page Styles
+.home {
+  color: @darkGreen;
+
+  h2 {
+    color: @green;
+    .headings();
+  }
+
+  .primary-content {
+    background-color: @lightGreen;
+  }
+
+  .qualities {
+    .plaster-bkg();
+
+    h3 {
+      .bottom-border();
+      font-weight: 600;
+    }
+  }
+}
+
+// Projects Pages Styles
+.projects-gallery {
     .plaster-bkg();
 
     div {
@@ -65,8 +104,8 @@ main {
       width: 100%;
     }
   }
-}
 
+// Footer Content for all pages
 footer {
   background-color: @gray;
   color: @lightGreen;

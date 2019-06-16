@@ -1,5 +1,8 @@
-body {
-  font-family: "Montserrat";
+.headings {
+  color: #b5c534;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
 }
 .black-bar {
   background-color: #000000;
@@ -8,6 +11,28 @@ body {
 .plaster-bkg {
   background-image: url("../img/background.jpg");
   background-size: cover;
+}
+.bottom-border {
+  border-bottom: 4px #b5c534 solid;
+}
+body {
+  font-family: "Montserrat";
+  color: #000000;
+}
+.cls-1 {
+  fill: none;
+}
+.cls-2 {
+  clip-path: url(#clip-path);
+}
+.cls-3 {
+  fill: #bfd67c;
+}
+.cls-4 {
+  fill: #006345;
+  font-size: 21px;
+  font-family: Montserrat-Bold, Montserrat;
+  font-weight: 700;
 }
 header .top-bar {
   background-color: #000000;
@@ -39,14 +64,34 @@ header .subpage-banner {
 main {
   background-color: #006345;
 }
-main .projects-gallery {
+.home {
+  color: #006345;
+}
+.home h2 {
+  color: #b5c534;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+.home .primary-content {
+  background-color: #bfd67c;
+}
+.home .qualities {
   background-image: url("../img/background.jpg");
   background-size: cover;
 }
-main .projects-gallery div div {
+.home .qualities h3 {
+  border-bottom: 4px #b5c534 solid;
+  font-weight: 600;
+}
+.projects-gallery {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+.projects-gallery div div {
   max-width: 300px;
 }
-main .projects-gallery img {
+.projects-gallery img {
   width: 100%;
 }
 footer {
