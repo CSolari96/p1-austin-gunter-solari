@@ -1,1 +1,148 @@
+<<<<<<< HEAD
 header{font-family:"Montserrat";background-color:#000;height:30px}header h1{font-size:20px;color:#fff;text-align:right;padding-right:2px}.jumbotron{background-image:image('img/subpage-heading.png');background-size:cover;font-family:"Montserrat";font-weight:400;font-size:32px;color:#b5c534}.jumbotron span{color:#006345}.logo img{width:100%;max-width:300px}.address{background-image:url(img/background.jpg);width:400px;margin:0 auto}.contactform{padding-top:20px;background-color:#006345;color:#b5c534}footer{background-color:#58585a;color:#bfd67c}footer h3{color:#b5c534}.form-group input{border:2px solid;border-color:#b5c534;border-radius:0}.form-group textarea{border:2px solid;border-color:#b5c534;border-radius:0}.btn-primary{background-color:#bfd67c;color:#006345}
+=======
+.headings {
+  color: #b5c534;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+.black-bar {
+  background-color: #000000;
+  color: #ffffff;
+}
+.plaster-bkg {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+.white-bkg {
+  background-color: #ffffff;
+  color: #006345;
+}
+.bottom-border {
+  border-bottom: 4px #b5c534 solid;
+}
+body {
+  font-family: "Montserrat";
+  color: #000000;
+}
+.cls-1 {
+  fill: none;
+}
+.cls-2 {
+  clip-path: url(#clip-path);
+}
+.cls-3 {
+  fill: #bfd67c;
+}
+.cls-4 {
+  fill: #006345;
+  font-size: 21px;
+  font-family: Montserrat-Bold, Montserrat;
+  font-weight: 700;
+}
+header .top-bar {
+  background-color: #000000;
+  color: #ffffff;
+}
+header .top-bar p {
+  display: inline-block;
+  font-weight: 500;
+}
+header .top-bar img {
+  max-width: 25px;
+  max-height: 25px;
+}
+header h1 {
+  color: #bfd67c;
+  font-weight: 700;
+}
+header h1 span {
+  color: #006345;
+}
+header .homepage-banner {
+  background-image: url('../img/home-heading.png');
+  background-size: cover;
+}
+header .homepage-banner p {
+  color: #bfd67c;
+  text-transform: uppercase;
+}
+header .subpage-banner {
+  background-image: url('../img/subpage-heading.png');
+  background-size: cover;
+}
+main {
+  background-color: #006345;
+}
+.home {
+  color: #006345;
+}
+.home h2 {
+  color: #b5c534;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+.home .primary-content {
+  background-color: #bfd67c;
+}
+.home .qualities {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+.home .qualities h3 {
+  border-bottom: 4px #b5c534 solid;
+  font-weight: 600;
+}
+.card {
+  color: #006345;
+}
+.card h4 {
+  border-bottom: 4px #b5c534 solid;
+  text-align: right;
+}
+.projects-gallery {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+.projects-gallery div div {
+  max-width: 300px;
+}
+.projects-gallery img {
+  width: 100%;
+}
+footer {
+  background-color: #58585a;
+  color: #bfd67c;
+}
+footer .social img {
+  max-width: 45px;
+}
+footer p {
+  font-size: .95rem;
+}
+footer .copyright {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: .75rem;
+}
+/*
+.contactform {
+  background-color:@darkGreen;
+  color:@green;
+}
+
+.form-group input {
+  border: 2px solid;
+  border-color: @green;
+  border-radius: 0;
+}
+
+.form-group textarea {
+  border: 2px solid;
+  border-color: @green;
+  border-radius: 0;
+}
+*/
+>>>>>>> 436f2688054c36e423e2628c9ea3ed4c9d8cecb8

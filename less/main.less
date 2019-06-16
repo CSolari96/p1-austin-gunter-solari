@@ -1,6 +1,9 @@
 @import "variables";
-header {
+
+// Body Styles for All Pages
+body {
   font-family: @mainFont;
+<<<<<<< HEAD
   background-color: @black;
   height: 30px;
     h1 {
@@ -38,15 +41,152 @@ header {
   margin-top;
   background-color:@darkGreen;
   color:@green;
+=======
+  color: @black;
 }
 
+// Call-to-Action Button Styles
+.cls-1 {
+  fill: none;
+}
+
+.cls-2 {
+  clip-path: url(#clip-path);
+}
+
+.cls-3 {
+  fill: #bfd67c;
+}
+
+.cls-4 {
+  fill: #006345;
+  font-size: 21px;
+  font-family: Montserrat-Bold, Montserrat;
+  font-weight: 700;
+}
+
+// Header and Navigation Styles
+header {
+  .top-bar {
+    .black-bar();
+
+    p {
+      display: inline-block;
+      font-weight: 500;
+    }
+
+    img {
+      max-width: 25px;
+      max-height: 25px;
+    }
+  }
+
+  h1 {
+    color: @lightGreen;
+    font-weight: 700;
+
+    span {
+      color: @darkGreen;
+    }
+  }
+
+  .homepage-banner {
+    background-image: url('../img/home-heading.png');
+    background-size: cover;
+
+    p {
+      color: @lightGreen;
+      text-transform: uppercase;
+    }
+  }
+
+  .subpage-banner {
+    background-image: url('../img/subpage-heading.png');
+    background-size: cover;
+  }
+}
+
+// Main Content for all pages
+main {
+  background-color: @darkGreen;
+}
+
+// Home Page Styles
+.home {
+  color: @darkGreen;
+
+  h2 {
+    color: @green;
+    .headings();
+  }
+
+  .primary-content {
+    background-color: @lightGreen;
+  }
+
+  .qualities {
+    .plaster-bkg();
+
+    h3 {
+      .bottom-border();
+      font-weight: 600;
+    }
+  }
+}
+
+// Services Page Styles
+.card {
+  color: @darkGreen;
+
+  h4 {
+    .bottom-border();
+    text-align: right;
+  }
+>>>>>>> 436f2688054c36e423e2628c9ea3ed4c9d8cecb8
+}
+
+// Projects Pages Styles
+.projects-gallery {
+    .plaster-bkg();
+
+    div {
+      div {
+        max-width: 300px;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+// Footer Content for all pages
 footer {
   background-color: @gray;
   color: @lightGreen;
-  h3{
-    color:@green;
+
+  .social {
+    img {
+      max-width: 45px;
+    }
+  }
+
+  p {
+    font-size: .95rem;
+  }
+
+  .copyright {
+    .black-bar();
+    font-size: .75rem;
   }
 }
+
+/*
+.contactform {
+  background-color:@darkGreen;
+  color:@green;
+}
+
 .form-group input {
   border: 2px solid;
   border-color: @green;
@@ -58,8 +198,12 @@ footer {
   border-color: @green;
   border-radius: 0;
 }
+<<<<<<< HEAD
 
 .btn-primary {
   background-color: @lightGreen;
   color: @darkGreen;
 }
+=======
+*/
+>>>>>>> 436f2688054c36e423e2628c9ea3ed4c9d8cecb8

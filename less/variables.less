@@ -4,6 +4,37 @@
 @darkGreen: #006345;
 @gray: #58585a;
 @black: #000000;
+@white: #ffffff;
 
 // Font
 @mainFont: "Montserrat";
+@headingSize1: 32pt;
+@headingSize2: 24pt;
+@bodySize: 11pt;
+
+// Mixin Classes
+.headings {
+	color: @green;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+}
+
+.black-bar {
+  background-color: @black;
+  color: @white;
+}
+
+.plaster-bkg {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+
+.white-bkg {
+	background-color: @white;
+	color: @darkGreen;
+}
+
+.bottom-border {
+	border-bottom: 4px @green solid;
+}
