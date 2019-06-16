@@ -12,6 +12,10 @@
   background-image: url("../img/background.jpg");
   background-size: cover;
 }
+.white-bkg {
+  background-color: #ffffff;
+  color: #006345;
+}
 .bottom-border {
   border-bottom: 4px #b5c534 solid;
 }
@@ -87,6 +91,13 @@ main {
 .home .qualities h3 {
   border-bottom: 4px #b5c534 solid;
   font-weight: 600;
+}
+.card {
+  color: #006345;
+}
+.card h4 {
+  border-bottom: 4px #b5c534 solid;
+  text-align: right;
 }
 .projects-gallery {
   background-image: url("../img/background.jpg");
