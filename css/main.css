@@ -5,6 +5,10 @@ body {
   background-color: #000000;
   color: #ffffff;
 }
+.plaster-bkg {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
 header .top-bar {
   background-color: #000000;
   color: #ffffff;
@@ -35,14 +39,14 @@ header .subpage-banner {
 main {
   background-color: #006345;
 }
-main section {
+main .projects-gallery {
   background-image: url("../img/background.jpg");
   background-size: cover;
 }
-main section div div {
+main .projects-gallery div div {
   max-width: 300px;
 }
-main section img {
+main .projects-gallery img {
   width: 100%;
 }
 footer {

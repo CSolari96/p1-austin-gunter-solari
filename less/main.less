@@ -9,6 +9,11 @@ body {
   color: @white;
 }
 
+.plaster-bkg {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+
 header {
   .top-bar {
     .black-bar();
@@ -47,9 +52,8 @@ header {
 main {
   background-color: @darkGreen;
 
-  section{
-    background-image: url("../img/background.jpg");
-    background-size: cover;
+  .projects-gallery {
+    .plaster-bkg();
 
     div {
       div {
