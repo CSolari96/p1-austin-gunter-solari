@@ -57,6 +57,10 @@ header .homepage-banner {
   background-image: url('../img/home-heading.png');
   background-size: cover;
 }
+header .homepage-banner p {
+  color: #bfd67c;
+  text-transform: uppercase;
+}
 header .subpage-banner {
   background-image: url('../img/subpage-heading.png');
   background-size: cover;
