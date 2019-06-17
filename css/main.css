@@ -137,26 +137,3 @@ footer .copyright {
   color: #ffffff;
   font-size: .75rem;
 }
-/*
-.contactform {
-  background-color:@darkGreen;
-  color:@green;
-}
-
-.form-group input {
-  border: 2px solid;
-  border-color: @green;
-  border-radius: 0;
-}
-
-.form-group textarea {
-  border: 2px solid;
-  border-color: @green;
-  border-radius: 0;
-}
-
-.btn-primary {
-  background-color: @lightGreen;
-  color: @darkGreen;
-}
-*/
