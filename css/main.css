@@ -1,137 +1,173 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/variables\.less}line{font-family:\0000316}}
 .headings {
   color: #b5c534;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/variables\.less}line{font-family:\0000323}}
 .black-bar {
   background-color: #000000;
   color: #ffffff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/variables\.less}line{font-family:\0000328}}
 .plaster-bkg {
   background-image: url("../img/background.jpg");
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/variables\.less}line{font-family:\0000333}}
 .white-bkg {
   background-color: #ffffff;
   color: #006345;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/variables\.less}line{font-family:\0000338}}
 .bottom-border {
   border-bottom: 4px #b5c534 solid;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\000034}}
 body {
   font-family: "Montserrat";
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\000039}}
 .logo img {
   width: 100%;
   max-width: 300px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000314}}
 section .address {
   background-image: url(../img/background.jpg);
   width: 400px;
   margin: 0 auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000320}}
 .contactform {
   background-color: #006345;
   color: #b5c534;
   color: #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000327}}
 .cls-1 {
   fill: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000331}}
 .cls-2 {
   clip-path: url(#clip-path);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000335}}
 .cls-3 {
   fill: #bfd67c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000339}}
 .cls-4 {
   fill: #006345;
   font-size: 21px;
   font-family: Montserrat-Bold, Montserrat;
   font-weight: 700;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000348}}
 header .top-bar {
   background-color: #000000;
   color: #ffffff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000351}}
 header .top-bar p {
   display: inline-block;
   font-weight: 500;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000356}}
 header .top-bar img {
   max-width: 25px;
   max-height: 25px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000362}}
 header h1 {
   color: #bfd67c;
   font-weight: 700;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000366}}
 header h1 span {
   color: #006345;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000371}}
 header .homepage-banner {
   background-image: url('../img/home-heading.png');
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000375}}
 header .homepage-banner p {
   color: #bfd67c;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000381}}
 header .subpage-banner {
   background-image: url('../img/subpage-heading.png');
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000388}}
 main {
   background-color: #006345;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000393}}
 .home {
   color: #006345;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\0000396}}
 .home h2 {
   color: #b5c534;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003101}}
 .home .primary-content {
   background-color: #bfd67c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003105}}
 .home .qualities {
   background-image: url("../img/background.jpg");
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003108}}
 .home .qualities h3 {
   border-bottom: 4px #b5c534 solid;
   font-weight: 600;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003116}}
 .card {
   color: #006345;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003119}}
 .card h4 {
   border-bottom: 4px #b5c534 solid;
   text-align: right;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003126}}
 .projects-gallery {
   background-image: url("../img/background.jpg");
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003130}}
 .projects-gallery div div {
   max-width: 300px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003135}}
 .projects-gallery img {
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003144}}
 footer {
   background-color: #58585a;
   color: #bfd67c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003149}}
 footer .social img {
   max-width: 45px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003154}}
 footer p {
   font-size: .95rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/court\/Documents\/School\/UF\/Summer 2019\/MMC6278 - Advanced Web 2\/Section 1 - A Solid Front-End Foundation\/Project 1\/p1-austin-gunter-solari\/less\/main\.less}line{font-family:\00003158}}
 footer .copyright {
   background-color: #000000;
   color: #ffffff;
